@@ -1,0 +1,24 @@
+{
+  "name": "photography-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "sass": "npx node-sass -w style.scss style.css", 
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulinaslabosz/photography-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paulinaslabosz/photography-website/issues"
+  },
+  "homepage": "https://github.com/paulinaslabosz/photography-website#readme",
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
