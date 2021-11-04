@@ -1,2 +1,24 @@
-html {
-  margin: 0; }
+body {
+  box-sizing: border-box;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background-color: #EBFCFB;
+  padding: 16px; }
+
+.main {
+  width: 600px;
+  height: 600px;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  background-color: white; }
+
+.form {
+  display: flex;
+  flex-direction: column; }
