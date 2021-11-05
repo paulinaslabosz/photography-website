@@ -14,18 +14,27 @@ body {
   width: 600px;
   height: 600px;
   border-radius: 7px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   margin: 0;
   background-color: white; }
   .main__heading {
     font-size: 40px;
-    color: #5f5449; }
+    color: #5f5449;
+    text-align: center;
+    margin: 100px 0 40px; }
   .main__link {
     text-decoration: none;
-    color: #5f5449; }
+    color: #5f5449;
+    text-align: center;
+    transition: font-size .5s;
+    display: block; }
+  .main__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+
+.main__link:hover {
+  font-size: 18px; }
 
 .form {
   display: flex;

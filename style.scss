@@ -17,20 +17,33 @@ body {
   width: 600px;
   height: 600px;
   border-radius: 7px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   margin: 0;
   background-color: white;
   &__heading {
     font-size: 40px;
     color: $brown;
+    text-align: center;
+    margin: 100px 0 40px;
   }
   &__link {
     text-decoration: none;
     color: $brown;
+    text-align: center;
+    transition: font-size .5s;
+    display: block;
+    
   }
+  &__form {
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+}
+
+.main__link:hover {
+        font-size: 18px;
+
 }
 
 .form {
@@ -53,9 +66,11 @@ body {
     border: 1px solid $darkPink;
     padding: 6px;
     font-size: 16px;
+    
   }
   &__label {
     margin-bottom: 10px;
     margin-left: 6px;
   }
 }
+
