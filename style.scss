@@ -1,7 +1,8 @@
 @import "_variables.scss";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
 body {
-    box-sizing: border-box;
+  box-sizing: border-box;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -9,7 +10,7 @@ body {
   margin: 0;
   background-color: $light;
   padding: 16px;
-  
+  font-family: "Montserrat";
 }
 
 .main {
@@ -18,18 +19,40 @@ body {
   border-radius: 7px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-    margin: 0;
-    
-        background-color: white; 
-  &__form {
-     
+  align-items: center;
+  margin: 0;
+  background-color: white;
+  &__heading {
+    font-size: 40px;
+    color: $brown;
+  }
+  &__link {
+    text-decoration: none;
+    color: $brown;
   }
 }
 
 .form {
-    display: flex;
-    flex-direction: column;
-    
+  display: flex;
+  flex-direction: column;
+  &__button {
+    margin: 10px 0 40px;
+    font-size: 18px;
+    font-weight: bold;
+    color: $light;
+    background-color: $darkPink;
+    border-radius: 7px;
+    padding: 10px;
+    border-style: none;
+  }
+  &__input {
+    margin-bottom: 10px;
+    border-radius: 7px;
+    height: 25px;
+    border: 1px solid $darkPink;
+  }
+  &__label {
+    margin-bottom: 10px;
+  }
 }
