@@ -10,7 +10,7 @@ fetch(endpoint)
 
     const sth = data.map((el) => {
         const container = document.querySelector('.pictures');
-        const template = `<img class="picture__image" src="${el.url}" alt="Picture of meme">
+        const template = `<img class="pictures__image" src="${el.url}" alt="Picture of meme">
         <p class="pictures__name">${el.name}</p>`
         container.innerHTML += template
         console.log(el.name)

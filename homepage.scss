@@ -1,0 +1,44 @@
+@import "_variables.scss";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+body {
+    background-color: $light;
+    font-family: "Montserrat";
+    box-sizing: border-box;
+    padding: 30px 16px 16px 16px;
+}
+
+.navigation {
+    &__link {
+
+    }
+}
+
+.page {
+padding: 20px;
+background-color: white;
+border-radius: 7PX;
+
+    &__heading {
+
+    }
+}
+
+.pictures {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+    &__image {
+max-width: 20%;
+display: flex;
+    flex-direction: column;
+
+    }
+    &__name {
+
+    }
+}
