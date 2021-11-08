@@ -25,7 +25,7 @@ body {
     text-decoration: none;
     color: #5f5449;
     text-align: center;
-    transition: font-size .5s;
+    transition: font-size 0.5s;
     display: block; }
   .main__form {
     display: flex;
@@ -58,3 +58,6 @@ body {
   .form__label {
     margin-bottom: 10px;
     margin-left: 6px; }
+
+.picture {
+  width: 300px; }
