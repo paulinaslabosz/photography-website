@@ -3,12 +3,32 @@ body {
   background-color: #dfd3d7;
   font-family: "Montserrat";
   box-sizing: border-box;
-  padding: 30px 16px 16px 16px; }
+  padding: 20px 16px 16px 16px;
+  margin: 0; }
+
+.heading {
+  font-size: 48px;
+  text-align: center;
+  padding-bottom: 16px;
+  color: black; }
 
 .page {
   padding: 20px;
   background-color: white;
   border-radius: 7px; }
+  .page__navigation {
+    display: flex;
+    justify-content: center; }
+    .page__navigation--link {
+      margin: 0 20px 0 20px;
+      text-align: center;
+      font-size: 20px;
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+      color: #4e0b14;
+      transition: border-bottom 1s; }
+      .page__navigation--link:hover {
+        border-bottom: 1px solid #4e0b14; }
 
 .pictures {
   display: flex;
