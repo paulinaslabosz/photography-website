@@ -1,4 +1,4 @@
-const endpoint = "https://api.imgflip.com/get_memes";
+// const endpoint = "https://api.imgflip.com/get_memes";
 let data;
 
 fetch(endpoint)
