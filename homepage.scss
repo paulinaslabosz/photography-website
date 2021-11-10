@@ -20,7 +20,6 @@ body {
   padding: 20px;
   background-color: white;
   border-radius: 7px;
-
   &__navigation {
     display: flex;
     justify-content: center;
@@ -38,6 +37,15 @@ body {
         border-bottom: 1px solid $darkRed;
       }
     }
+  }
+  &__title {
+    width: 400px;
+    margin: auto;
+    text-align: center;
+    font-size: 36px;
+    font-weight: normal;
+    border-bottom: 1px solid black;
+    margin-bottom: 25px;
   }
 }
 

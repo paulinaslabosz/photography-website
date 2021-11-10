@@ -30,6 +30,14 @@ body {
       transition: border-bottom 1s; }
       .page__navigation--link:hover {
         border-bottom: 1px solid #4e0b14; }
+  .page__title {
+    width: 400px;
+    margin: auto;
+    text-align: center;
+    font-size: 36px;
+    font-weight: normal;
+    border-bottom: 1px solid black;
+    margin-bottom: 25px; }
 
 .container {
   display: flex;
