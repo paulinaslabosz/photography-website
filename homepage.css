@@ -18,7 +18,8 @@ body {
   border-radius: 7px; }
   .page__navigation {
     display: flex;
-    justify-content: center; }
+    justify-content: center;
+    margin-bottom: 40px; }
     .page__navigation--link {
       margin: 0 20px 0 20px;
       text-align: center;
@@ -40,7 +41,8 @@ body {
   justify-content: center; }
 
 .picture {
-  border: 2px solid black;
+  border: 3px groove rgba(155, 106, 108, 0.45);
+  border-radius: 7px;
   padding: 10px;
   margin: 10px;
   width: 200px;

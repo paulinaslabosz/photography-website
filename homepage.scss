@@ -24,6 +24,7 @@ body {
   &__navigation {
     display: flex;
     justify-content: center;
+    margin-bottom: 40px;
 
     &--link {
       margin: 0 20px 0 20px;
@@ -48,11 +49,11 @@ body {
   align-content: flex-start;
   flex-wrap: wrap;
   justify-content: center;
-
+  
 }
 .picture {
-
-  border: 2px solid black;
+ border: 3px groove rgba(155,106,108,0.45);
+border-radius: 7px;
   padding: 10px;
   margin: 10px;
   width: 200px;
