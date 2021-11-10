@@ -1,4 +1,4 @@
-// const endpoint = "https://api.imgflip.com/get_memes";
+const endpoint = "https://api.imgflip.com/get_memes";
 let data;
 
 fetch(endpoint)
@@ -9,9 +9,9 @@ fetch(endpoint)
  
 
     const sth = data.map((el) => {
-        const container = document.querySelector('.pictures');
-        const template = `<img class="pictures__image" src="${el.url}" alt="Picture of meme">
-        <p class="pictures__name">${el.name}</p>`
+        const container = document.querySelector('.container');
+        const template = `<div class="picture"><img class="picture__element" src="${el.url}" ="Picture of meme">
+        <p class="picture__name">${el.name}</p></div>`
         container.innerHTML += template
         console.log(el.name)
     });
