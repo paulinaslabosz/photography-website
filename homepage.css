@@ -15,7 +15,10 @@ body {
 .page {
   padding: 20px;
   background-color: white;
-  border-radius: 7px; }
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
   .page__navigation {
     display: flex;
     justify-content: center;
@@ -85,3 +88,14 @@ body {
   .box__image {
     max-width: 500px;
     margin: auto; }
+
+.reset {
+  width: 200px;
+  margin: 25px 0 25px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #dfd3d7;
+  background-color: #9b6a6c;
+  border-radius: 7px;
+  padding: 16px;
+  border-style: none; }

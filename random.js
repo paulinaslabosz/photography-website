@@ -14,3 +14,13 @@ fetch(endpoint)
     random.innerHTML = template;
   })
   .catch((err) => console.log(err));
+
+
+
+const button = document.querySelector('.reset--js')
+
+  function refreshPage() {
+    window.location.reload();
+  };
+
+  button.addEventListener('click', refreshPage);

@@ -20,6 +20,10 @@ body {
   padding: 20px;
   background-color: white;
   border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
   &__navigation {
     display: flex;
     justify-content: center;
@@ -101,4 +105,18 @@ margin: auto;
     margin: auto;
   
   }
+}
+
+.reset {
+ 
+  width: 200px;
+ margin: 25px 0 25px;
+    font-size: 18px;
+    font-weight: bold;
+    color: $light;
+    background-color: $darkPink;
+    border-radius: 7px;
+    padding: 16px;
+    border-style: none;
+
 }
