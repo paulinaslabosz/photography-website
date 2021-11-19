@@ -23,7 +23,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
- 
+
   &__navigation {
     display: flex;
     justify-content: center;
@@ -84,17 +84,17 @@ body {
     margin-bottom: 15px;
   }
   &__name {
-    display: inline-block;
+    display: inline;
     margin-top: auto;
     text-align: center;
     font-weight: bold;
-    margin-bottom: 20px;
+  
   }
 }
 
 .box {
   display: flex;
-margin: auto;
+  margin: auto;
   margin-top: 30px;
   max-width: 500px;
   border: 3px groove rgba(155, 106, 108, 0.45);
@@ -103,20 +103,42 @@ margin: auto;
   &__image {
     max-width: 500px;
     margin: auto;
-  
   }
 }
 
 .reset {
- 
   width: 200px;
- margin: 25px 0 25px;
-    font-size: 18px;
-    font-weight: bold;
-    color: $light;
-    background-color: $darkPink;
-    border-radius: 7px;
-    padding: 16px;
-    border-style: none;
+  margin: 25px 0 25px;
+  font-size: 18px;
+  font-weight: bold;
+  color: $light;
+  background-color: $darkPink;
+  border-radius: 7px;
+  padding: 16px;
+  border-style: none;
+}
 
+.icons {
+margin-top: 0;
+  &__open {
+   margin: 0 20px 0 20px;
+    stroke-width: 1px;
+    fill: $iconPink;
+    
+
+        &:hover {
+      stroke: $darkRed;
+      fill: $darkRed;
+    }
+  }
+  &__star {
+    margin: 0 20px 0 20px;
+    stroke-width: 2px;
+    stroke: $iconPink;
+    fill: transparent;
+        &:hover {
+      stroke: $darkRed;
+      fill: $darkRed;
+    }
+  }
 }

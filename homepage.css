@@ -71,11 +71,10 @@ body {
     flex-direction: column;
     margin-bottom: 15px; }
   .picture__name {
-    display: inline-block;
+    display: inline;
     margin-top: auto;
     text-align: center;
-    font-weight: bold;
-    margin-bottom: 20px; }
+    font-weight: bold; }
 
 .box {
   display: flex;
@@ -99,3 +98,21 @@ body {
   border-radius: 7px;
   padding: 16px;
   border-style: none; }
+
+.icons {
+  margin-top: 0; }
+  .icons__open {
+    margin: 0 20px 0 20px;
+    stroke-width: 1px;
+    fill: #c9b8bc; }
+    .icons__open:hover {
+      stroke: #4e0b14;
+      fill: #4e0b14; }
+  .icons__star {
+    margin: 0 20px 0 20px;
+    stroke-width: 2px;
+    stroke: #c9b8bc;
+    fill: transparent; }
+    .icons__star:hover {
+      stroke: #4e0b14;
+      fill: #4e0b14; }
