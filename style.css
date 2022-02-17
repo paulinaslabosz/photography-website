@@ -27,7 +27,8 @@ body {
     color: #5f5449;
     text-align: center;
     transition: font-size 0.5s;
-    display: block; }
+    display: block;
+    margin-bottom: 16px; }
   .main__form {
     display: flex;
     flex-direction: column;
